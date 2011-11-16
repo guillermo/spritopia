@@ -1,4 +1,4 @@
-SPRITEOPIA
+SPRITOPIA
 ==========
 
 The sprite generator
@@ -25,15 +25,15 @@ are going to create ``images/icons.sprite`` with the following content:
     icons/copy.png
     icons/paste.png
 
-Now you have that file, you just need to call spriteopia:
+Now you have that file, you just need to call spritopia:
 
-    spriteopia images/icons.sprite
+    spritopia images/icons.sprite
 
 This command will create two new files ``icons.png`` and ``icons.json`` in the same
 directory of our ``.sprite`` file.
 
-*icons.png* is the actual sprite with all the images defined inside ``icons.sprite``
-*icons.json* will have the coordinates of each image and the size.
+**icons.png** is the actual sprite with all the images defined inside ``icons.sprite``
+**icons.json** will have the coordinates of each image and the size.
 
 For example, icons.json could be like this:
 
@@ -74,7 +74,7 @@ Thats all.
 Installation
 ------------
 
-    gem install spriteopia
+    gem install spritopia
 
 
 Author
